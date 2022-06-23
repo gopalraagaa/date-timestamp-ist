@@ -1,0 +1,1 @@
+A Node.js module that prints your current date and time in IST.

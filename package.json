@@ -1,0 +1,23 @@
+{
+  "name": "date-timestamp-ist",
+  "version": "1.0.0",
+  "description": "A NodeJS module which shows you current date and time in IST on console",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "time",
+    "date"
+  ],
+  "bin": {
+    "date-time-node": "./index.js"
+  },
+  "author": "Gopal<gopalraaga@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.4"
+  }
+}

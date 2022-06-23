@@ -1,0 +1,7 @@
+# package directories
+node_modules
+#dist is only for the package
+dist
+#ignore coverage dir
+coverage
+npm-debug.log
