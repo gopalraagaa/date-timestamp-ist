@@ -16,7 +16,9 @@ clear();
 var currentTimeStatus = "Current date and time Initiated ";
 process.stdout.write("\n"+currentTimeStatus+"\n");
 
-function getTime(req, res, next) {
-    var currentTime = "Current date and time : " + new Date();
-    return currentTime;
-}
+module.exports = {
+    getTime: function () {
+        var currentTime = "Current date and time : " + new Date();
+        return currentTime;
+    } 
+};
