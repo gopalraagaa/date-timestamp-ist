@@ -1,10 +1,3 @@
-#!/usr/bin/env node
-/**
-* Print the current date and time
-*
-* @return {String}
-*/
-
 "use strict";
 
 var chalk = require("chalk"),
