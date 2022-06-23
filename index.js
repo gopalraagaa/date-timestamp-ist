@@ -13,6 +13,10 @@ var chalk = require("chalk"),
 
 clear();
 
-var currentTime = "Current date and time : " + new Date();
+var currentTimeStatus = "Current date and time Initiated ";
+process.stdout.write("\n"+currentTimeStatus+"\n");
 
-process.stdout.write("\n"+currentTime+"\n");
+function getTime(req, res, next) {
+    var currentTime = "Current date and time : " + new Date();
+    return currentTime;
+}
